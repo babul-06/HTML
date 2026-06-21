@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Audio and Video Example</title>
+</head>
+<body>
+
+    <h1>HTML5 Media Elements</h1>
+
+    <!-- 1. Embedding Audio -->
+    <h2>Audio Player</h2>
+    <p>Listen to this audio track:</p>
+    <!-- 
+      The controls attribute adds play, pause, and volume buttons.
+      The <source> tag specifies the media file path and type.
+    -->
+    <audio controls>
+        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <hr>
+
+    <!-- 2. Embedding Video -->
+    <h2>Video Player</h2>
+    <p>Watch this short video clip:</p>
+    <!-- 
+      width and height set the video player dimensions.
+      controls adds the video playback interface.
+    -->
+    <video width="400" height="240" controls>
+        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+</body>
+</html>
